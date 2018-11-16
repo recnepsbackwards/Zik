@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "ZIK",
+    "version": "1.0",
+    "description": "ZIK",
+    "page_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://zikanalytics.com/SearchCompetitor/*",
+          "http://zikanalytics.com/SearchCompetitor/*"
+        ],
+        "js": [
+          "jquery.js",
+          "content_script.js"
+        ]
+      }
+    ],
+
+    "permissions" : [
+        "tabs",
+        "http://*/*"
+            ]
+}
