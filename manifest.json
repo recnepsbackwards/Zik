@@ -12,6 +12,9 @@
           "https://zikanalytics.com/SearchCompetitor/*",
           "http://zikanalytics.com/SearchCompetitor/*"
         ],
+        "css": [
+          "styles.css"
+        ],
         "js": [
           "jquery.js",
           "content_script.js"
