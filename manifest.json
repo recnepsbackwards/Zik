@@ -19,8 +19,13 @@
           "jquery.js",
           "content_script.js"
         ]
+      },
+      {
+        "matches": ["https://www.dsmtool.com/statistics?rows=*", "http://www.dsmtool.com/statistics?rows=*"],
+        "js": ["jquery.js", "dsm_script.js"]
       }
     ],
+
 
     "permissions" : [
         "tabs",
