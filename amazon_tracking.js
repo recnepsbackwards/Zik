@@ -8,6 +8,6 @@ $(document).ready(function(){
     var address = addressArray[i].innerHTML.split('<');
     fullName = address[0];
     searchName = fullName.split(' ');
-    $('<a href='+amazonSearch+searchName[0]+'+'+searchName[1]+' targert="_blank">Amazon Tracking Search</a>').insertAfter(titleCol[i]);
+    $('<a href='+amazonSearch+searchName[0]+'+'+searchName[1]+' target="_blank">Amazon Tracking Search</a>').insertAfter(titleCol[i]);
   }
 });
