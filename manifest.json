@@ -23,6 +23,10 @@
       {
         "matches": ["https://www.dsmtool.com/statistics?rows=*", "http://www.dsmtool.com/statistics?rows=*"],
         "js": ["jquery.js", "dsm_script.js"]
+      },
+      {
+        "matches": ["https://www.dsmtool.com/statistics*", "http://www.dsmtool.com/statistics*"],
+        "js": ["jquery.js", "amazon_tracking.js"]
       }
     ],
 
