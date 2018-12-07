@@ -27,6 +27,10 @@
       {
         "matches": ["https://www.dsmtool.com/statistics*", "http://www.dsmtool.com/statistics*"],
         "js": ["jquery.js", "amazon_tracking.js"]
+      },
+      {
+        "matches": ["https://www.synchronycredit.com/eService/BillingActivity/*", "http://www.synchronycredit.com/eService/BillingActivity/*"],
+        "js": ["jquery.js", "amazon_bank.js"]
       }
     ],
 
