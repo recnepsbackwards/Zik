@@ -11,7 +11,7 @@ $(document).ready(function(){
       clearInterval(interval);
     }
   }
-  $(document).on('click', '.paginate_button, .btnGo', function() {
+  $(document).on('click', '.paginate_button, .btnGo, .filterBtn', function() {
     clearInterval(interval);
     interval = setInterval(doStuff, 2000);
   });
